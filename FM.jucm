@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="hegaz" created="October 28, 2018 7:12:25 PM EDT" modified="October 28, 2018 7:42:21 PM EDT" specVersion="8" urnVersion="1.27" nextGlobalID="98">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="hegaz" created="October 28, 2018 7:12:25 PM EDT" modified="October 28, 2018 7:46:44 PM EDT" specVersion="10" urnVersion="1.27" nextGlobalID="102">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup6" id="6">
       <scenarios name="ScenarioDef7" id="7"/>
@@ -14,36 +14,36 @@
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Gift Wrapping" id="17" linksSrc="32" type="Task" refs="18">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Approval" id="19" linksSrc="30" type="Task" refs="20">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Delivery" id="21" linksDest="87 94" linksSrc="26" type="Task" decompositionType="Xor" refs="22">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Payment" id="34" linksDest="61 58 59" linksSrc="46" type="Task" decompositionType="Xor" refs="35">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Bill" id="36" linksDest="73 71" linksSrc="44" type="Task" decompositionType="Xor" refs="37">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Shipping Cost" id="38" linksSrc="42" type="Task" refs="39">
       <metadata name="_addAggregate" value="disable"/>
@@ -51,43 +51,43 @@
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Cash on delivery" id="48" linksSrc="61" type="Task" refs="49">
-      <metadata name="_numEval" value="100"/>
-      <metadata name="_qualEval" value="Satisfied"/>
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Credit card on delivery" id="50" linksSrc="58" type="Task" refs="51">
       <metadata name="_numEval" value="0"/>
       <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="pay online" id="52" linksSrc="59" type="Task" refs="53">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="printed" id="62" linksSrc="71" type="Task" refs="63">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
-    </intElements>
-    <intElements xsi:type="fm:Feature" name="online" id="64" linksSrc="73" type="Task" refs="65">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="printed" id="62" linksSrc="71" type="Task" refs="63">
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
+    </intElements>
+    <intElements xsi:type="fm:Feature" name="online" id="64" linksSrc="73" type="Task" refs="65">
+      <metadata name="_numEval" value="0"/>
+      <metadata name="_qualEval" value="None"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Shipping" id="74" linksDest="90 92" linksSrc="87" type="Task" refs="75">
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Electronic Shipping" id="76" linksSrc="94" type="Task" refs="77">
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Package slip" id="78" linksSrc="90" type="Task" refs="79">
       <metadata name="_addAggregate" value="disable"/>
       <metadata name="_numEval" value="100"/>
       <metadata name="_qualEval" value="Satisfied"/>
-      <metadata name="_autoSelected" value="20181028-193837431"/>
+      <metadata name="_autoSelected" value="20181028-194637780"/>
     </intElements>
     <intElements xsi:type="fm:Feature" name="Tracking Number" id="80" linksSrc="92" type="Task" refs="81">
       <metadata name="_addAggregate" value="disable"/>
-      <metadata name="_numEval" value="0"/>
-      <metadata name="_qualEval" value="None"/>
+      <metadata name="_numEval" value="100"/>
+      <metadata name="_qualEval" value="Satisfied"/>
     </intElements>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory26" id="26" refs="//@urndef/@specDiagrams.1/@connections.0" dest="13" src="21" quantitativeContribution="33"/>
     <links xsi:type="fm:MandatoryFMLink" name="Mandatory27" id="27" refs="//@urndef/@specDiagrams.1/@connections.1" dest="13" src="15" quantitativeContribution="33"/>
@@ -106,7 +106,7 @@
     <links xsi:type="fm:OptionalFMLink" name="Optional92" id="92" refs="//@urndef/@specDiagrams.1/@connections.14" dest="74" src="80" quantitativeContribution="0"/>
     <links xsi:type="grl:Decomposition" name="Decomposition94" id="94" refs="//@urndef/@specDiagrams.1/@connections.15" dest="21" src="76"/>
     <groups name="Ordering Strategies" id="4" strategies="5 95 96 97"/>
-    <groups name="StrategiesGroup98" id="98"/>
+    <groups name="Warnings" id="98" strategies="99 100 101 102"/>
     <strategies name="cash on delivery, printed, shipping" id="5" author="hegaz" group="4">
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="48">
         <kpiEvalValueSet/>
@@ -163,6 +163,67 @@
         <kpiEvalValueSet/>
       </evaluations>
       <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="38">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="default" id="99" author="hegaz" group="98"/>
+    <strategies name="cash and credit card on delivery" id="100" author="hegaz" group="98">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="48">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="50">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="64">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="38">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="74">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="80">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="Printed and Online bill" id="101" author="hegaz" group="98">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="62">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="52">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="64">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="74">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="80">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="38">
+        <kpiEvalValueSet/>
+      </evaluations>
+    </strategies>
+    <strategies name="electronic and normal shipping" id="102" author="hegaz" group="98">
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="62">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="52">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="74">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="76">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="38">
+        <kpiEvalValueSet/>
+      </evaluations>
+      <evaluations evaluation="100" qualitativeEvaluation="Satisfied" intElement="80">
         <kpiEvalValueSet/>
       </evaluations>
     </strategies>
